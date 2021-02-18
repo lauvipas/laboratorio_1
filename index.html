@@ -12,23 +12,24 @@
 
 <body>
     <div class="container">
-        <div class="img">
-        <div class="data">
-            <img src="images/myAvatar.png" id="myavatar" alt="myavatar" class="myavatar">
-            </img>
-        </div>  
+        <div class="img"> 
+            <img src="images/myAvatar.png" id="myavatar" alt="myavatar" class="myavatar"/>
+             
         </div>
+        <div class="data">
+
+            <label for="name"><b>Nombre</b></label>
+            <input type="text" id="name" name="name"/>
+            <label for="lastName"><b>Apellidos</b></label>
+            <input type="text" id="lastName" name="lastName"/>
+        </div>
+       <div class="button"> 
+           <button type="button" onclick="console.log(document.getElementById('lastName').value)">Uppdate</button></div>
+
     </div>  
 
-    <div class="datos usuario">
-
-        <label for="name"><b>Nombre</b></label>
-        <input type="text" id="name" name="name"/>
-        <label for="lastName"><b>Apellidos</b></label>
-        <input type="text" id="lastName" name="lastName"/>
-    </div>
+    
    
-<button type="button" onclick="console.log('name')".value>Uppdate</button> 
 
     
 
